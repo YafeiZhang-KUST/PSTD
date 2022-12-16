@@ -19,7 +19,7 @@ Thank you.
 # Get Started
 ## 1.Install:
     download the code
-    git clone https://github.com/YafeiZhang-KUST/CMReID.git
+    git clone https://github.com/YafeiZhang-KUST/PSTD.git
     cd PSTD
     
 ## 2.Datasets
@@ -34,18 +34,18 @@ Dataset | Rank1  | mAP | mINP
 Train a model by
 ```bash
 python train.py 
-You can download the weight files that have been trained(链接：https://pan.baidu.com/s/1JMkIhBMZQdVOjqI_6fmycQ 
-password：2022)
+You can download the weight files that have been trained(链接：https://pan.baidu.com/s/1fP55UhVjokPI92nUzpF1rw
+password：xujt)
 
 ```
 # Contact:
     Don't hesitate to contact me if you meet any problems when using this code.
 
-    Linbo Shi
+    YuQing Huang
     Faculty of Information Engineering and Automation
     Kunming University of Science and Technology                                                           
-    Email: 1527467911@qq.com
+    Email: 2277516094@qq.com
 
 # Acknowledgements
-Our code is based on https://github.com/mangye16/Cross-Modal-Re-ID-baseline.
+Our code is based on https://github.com/tocaiqing/TDPN.
 
