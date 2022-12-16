@@ -10,11 +10,11 @@ Usage of this code is free for research purposes only.
 Thank you.
 
 # Requirements:
-    CUDA  11.4
+    CUDA  10.2
     Python  3.7
-    Pytorch  1.7.0
-    torchvision  0.8.2
-    numpy  1.16.2
+    Pytorch  1.10.0
+    torchvision  0.11.1
+    numpy  1.14.5
 
 # Get Started
 ## 1.Install:
@@ -22,20 +22,19 @@ Thank you.
     git clone https://github.com/YafeiZhang-KUST/PSTD.git
     cd PSTD
     
-## 2.Datasets
-- SYSU-MM01
-- RegDB
+## 2.Training Datasets
+- DIV2K
+
 ## 3.Results
-Dataset | Rank1  | mAP | mINP
- ---- | ----- | ------  | -----
- RegDB | ~95.12% | ~91.06%  | ~83.71%
- SYSU-MM01  | ~61.67% | ~57.72% | ~42.30%
+You can download the result files (链接：https://pan.baidu.com/s/1QGABCLy2EbJ9B9yQc31__A
+password：ra85)
+
 ## 4.Training
 Train a model by
 ```bash
 python train.py 
-You can download the weight files that have been trained(链接：https://pan.baidu.com/s/1fP55UhVjokPI92nUzpF1rw
-password：xujt)
+You can download the weight files that have been trained(链接：https://pan.baidu.com/s/1CQLjHMs50hAuHtF7DNAdsg
+password：e9hy)
 
 ```
 # Contact:
